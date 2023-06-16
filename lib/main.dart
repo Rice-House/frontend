@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:firstflutter/app/pages/home.dart';
+import 'package:firstflutter/app/pages/home/home.dart';
 import 'package:firstflutter/app/pages/map.dart';
-import 'package:firstflutter/app/pages/community.dart';
+import 'package:firstflutter/app/pages/community/community.dart';
 import 'package:firstflutter/app/pages/mypage.dart';
 
 void main() {

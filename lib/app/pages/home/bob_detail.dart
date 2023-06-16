@@ -15,6 +15,12 @@ class _BobDetailPageState extends State<BobDetailPage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            ElevatedButton(
+              onPressed: () {
+                Navigator.pop(context);
+              },
+              child: Text('Back')
+            ),
             const Text(
               'BobDetailPage',
             ),

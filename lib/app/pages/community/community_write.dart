@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class CommunityPage extends StatefulWidget {
-  const CommunityPage({super.key});
+class CommunityWritePage extends StatefulWidget {
+  const CommunityWritePage({super.key});
 
   @override
-  State<CommunityPage> createState() => _CommunityPageState();
+  State<CommunityWritePage> createState() => _CommunityWritePageState();
 }
 
-class _CommunityPageState extends State<CommunityPage> {
+class _CommunityWritePageState extends State<CommunityWritePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -15,8 +15,14 @@ class _CommunityPageState extends State<CommunityPage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            ElevatedButton(
+              onPressed: () {
+                Navigator.pop(context);
+              },
+              child: Text('Back')
+            ),
             const Text(
-              'Community',
+              'CommunityWritePage',
             ),
             Text(
               '',
